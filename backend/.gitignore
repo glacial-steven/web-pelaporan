@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# Environment variables (WAJIB JANGAN DIUNGGAH!)
+.env
+.env.production
+.env.development
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+
+# Local Uploads Folder (Wajib di-ignore!)
+# Folder ini berisi gambar user yang besar dan sensitif.
+/public/uploads 
+
+# Output Build
+/dist
+/build
